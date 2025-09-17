@@ -81,6 +81,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Backend server running on port ${port}`);
 });
